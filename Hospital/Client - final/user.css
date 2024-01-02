@@ -1,0 +1,298 @@
+.siha {
+    display: flex;
+}
+
+.left {
+    width: 232px;
+    height: 951px;
+    background: rgba(11, 197, 234, 1);
+
+
+}
+
+.top {
+    width: 1208px;
+    height: 137px;
+    left: 232px;
+
+}
+
+.nav {
+    background: rgba(255, 255, 255, 1);
+    text-align: left;
+    color: rgba(11, 197, 234, 1);
+    margin-left: 10px;
+}
+
+.nav span {
+    font-weight: bold;
+}
+
+.notify {
+    text-align: right;
+    margin-right: 10px;
+    color: rgba(11, 197, 234, 1);
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+.user {
+    font-size: 20px;
+
+}
+
+.notify-sym {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.greyContainer {
+    background: rgba(236, 242, 246, 1);
+    padding: 20px;
+}
+
+.formControl {
+    min-width: 200px;
+    margin: 0 10px;
+}
+
+.siha_logo {
+    padding-top: 30px;
+}
+
+.heading {
+    color: rgba(11, 197, 234, 1);
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 30px;
+
+}
+
+/* .formcontainer {
+    display: flex;
+    justify-content: center;
+    
+    max-height: 100%;
+} */
+.mainContainer {
+    height: max-content;
+}
+
+.container {
+    background-color: #fff;
+    width: 1167px;
+    height: 654px;
+    border-radius: 7px;
+    padding: 15px 25px;
+
+}
+
+.formcontainer {
+    max-width: 1167px;
+    margin: auto;
+}
+
+#demo-simple-select {
+
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+}
+
+.twoUser {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.usericon {
+    margin-left: 30px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#demo-simple-select-label {
+    background-color: #fff;
+}
+
+.nameContainer {
+    display: flex;
+    gap: 15px;
+    padding-top: 30px;
+    margin-left: 20%;
+}
+
+.nameContainerHos {
+
+    padding-top: 30px;
+    margin-left: 33%;
+}
+
+.nameInput {
+    flex: 1;
+    padding-top: 30px;
+
+}
+
+.outlined-basic {
+    width: 350px;
+}
+
+.outlined-basic-select {
+    width: 350px;
+}
+
+.outlined-basic-hos {
+    width: 710px;
+
+}
+
+.role {
+
+
+    border: 1px soild #000;
+}
+
+.btn-file {
+    width: 350px;
+    padding-bottom: 25px;
+    text-align: left;
+    height: 180px;
+}
+
+.reg {
+    border: 1px soild #000;
+    color: rgb(158, 159, 159);
+    border: 1px solid rgb(158, 159, 159);
+    padding:12px 0 15px 13px;
+    border-radius: 2px;
+}
+
+.hospital {
+    width: 300%
+}
+
+.GoUpload {
+    padding-left: 120px;
+    font-size: 20px;
+
+}
+
+.btn {
+    background-color: rgba(11, 197, 234, 1);
+
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    padding-bottom: 10px;
+    border: #fff;
+}
+
+.btn-user {
+    font-size: 15px;
+    padding-right: 16px;
+}
+
+.button {
+    text-align: center;
+}
+
+
+.add {
+    text-align: right;
+    margin: 30px;
+}
+
+.add button {
+    padding: 5px 10px;
+    font-size: 15px;
+    background-color: rgba(11, 197, 234, 1);
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-icon {
+    font-size: 24px;
+    padding-right: 15px;
+    cursor: pointer;
+  }
+  
+  .edit-icon {
+    font-size: 24px;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+.editContainer{
+  
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 20px;
+}  
+.Toastify {
+    z-index: 9999;
+  }
+.l{
+    color: rgb(8, 175, 64);
+}  
+/* user.css */
+
+.data-grid-container {
+    height: 500px;
+    overflow-y: auto;
+    max-width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .add {
+    margin-bottom: 20px;
+  }
+  
+  .MuiDataGrid-root {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .MuiDataGrid-root .MuiDataGrid-columnHeader,
+  .MuiDataGrid-root .MuiDataGrid-cell {
+    border: 1px solid #ddd;
+  }
+   .MuiDataGrid-columnHeader,.MuiDataGrid-row {
+    background-color: #f2f2f2;
+  }
+  .MuiDataGrid-columnHeader,.MuiDataGrid-row:hover {
+    background-color: #fff;
+  }
+.MuiDataGrid-row:nth-child(odd) {
+    background-color: #fff;
+  }
+ .MuiDataGrid-row:nth-child(odd):hover {
+    background-color: #f2f2f2;;
+  }
+
+.MuiDataGrid-row:hover {
+    background-color: #f2f2f2;;
+    text-align: center;
+  }
+  
+  .MuiDataGrid-root .MuiDataGrid-columnHeader {
+    background-color:  #f2f2f2;
+   text-align: center;
+ 
+  }
+  
+  .MuiDataGrid-root .MuiDataGrid-columnHeader:hover {
+    background-color: #fff;
+  }
+  
